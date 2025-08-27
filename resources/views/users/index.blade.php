@@ -103,6 +103,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="login-link">
                 <p>Đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
             </div>
+            <div class="login-link">
+                <p>Đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
+            </div>
+            <h1>aaaa</h1>
     </div>
 
 </body>
