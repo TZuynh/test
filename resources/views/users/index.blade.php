@@ -92,18 +92,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <body>
 
-    <div class="register-container">
-        <h2>Đăng ký tài khoản</h2>
-        <form method="POST" action="register.php">
-            <input type="text" name="name" placeholder="Tên đăng nhập" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Mật khẩu" required>
-            <button type="submit">Đăng ký</button>
-            <input type="text" name="name" placeholder="Tên" required>
-            <div class="login-link">
-                <p>Đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
-            </div>
+<div class="register-container">
+    <h2>Đăng ký tài khoản</h2>
+    <form method="POST" action="register.php">
+        <input type="text" name="name" placeholder="Tên đăng nhập" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Mật khẩu" required>
+        <button type="submit">Đăng ký</button>
+    </form>
+    <div class="login-link">
+        <p>Đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
     </div>
+    <div class="login-link">
+        <p>Đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
+    </div>
+    <div class="login-link">
+        <p>Đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
+    </div>
+</div>
 
 </body>
 
